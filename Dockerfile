@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     cmake \
     libeigen3-dev \
     libomp-dev \
+    libgtest-dev \
     git \
     && rm -rf /var/lib/apt/lists/*
 
