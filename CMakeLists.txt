@@ -9,7 +9,7 @@ option(BUILD_SHARED_LIBS "Build as shared library" OFF)
 include(CTest)
 
 # Dependencies
-find_package(Eigen3 3.4 REQUIRED NO_MODULE)
+find_package(Eigen3 REQUIRED NO_MODULE)
 find_package(OpenMP REQUIRED)
 # Optional OSQP dependencies
 find_package(osqp QUIET)
